@@ -5,330 +5,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RG-HTML</title>
+    <title>Survey Form</title>
 </head>
 
 <body>
-    <div>
-        <p>html dasar</p>
-    </div>
-
-    <!--order li-->
-    <div>
-        <ol>
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-        </ol>
-    </div>
-
-    <div>
-        <ol type="A">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-        </ol>
-    </div>
-
-    <!--Unordered list-->
-    <div>
-        <ul type="square">
-            <li>Satu</li>
-            <li>Dua</li>
-            <li>Tiga</li>
-        </ul>
-    </div>
-
-    <!--table-->
-    <div>
-        <table border="6" bgcolor="red">
-            <tr>
-                <th>Nama</th>
-                <th>Kelas</th>
-                <th>ID</th>
-            </tr>
-            <tr>
-                <td>Elang Bimantoro</td>
-                <td>FE3</td>
-                <td>FE2096511</td>
-            </tr>
-        </table>
-    </div>
-
-    <!---form-->
-    <div>
+    <h1>Feedback Form Peserta Front-End</h1>
+    <!-- Create Form -->
+    <form id="form">
+        <!-- Details -->
+        <div class="form-input">
+            <label for="email" id="label-email">
+                <b>Email:</b>
+            </label>
+            <input type="email" id="email" placeholder="Masukkan Email..." />
+        </div>
         <br>
-        <form action="">
-            <label for="nama">Nama :</label>
-            <input type="text" name="fname" id="name">
+        <div class="form-input">
+            <label for="name" id="label-name">
+                <b>Nama:</b>
+            </label>
+            <input type="text" id="name" placeholder="Masukkan Nama..." />
+        </div>
+        <br>
+        <div class="form-input">
+            <label for="camp" id="label-camp">
+                <b>ID Camp:</b> 
+            </label>
+            <input type="text" id="camp" placeholder="Masukkan ID CAMP" />
+        </div>
+        <br>
+        <div class="form-input">
+            <label for="kelas" id="label-kelas">
+                <b>Kelas:</b> 
+            </label>
+            <!-- Dropdown options -->
+            <select name="kelas" id="kelas">
+                <option value="fe-1">FE 1</option>
+                <option value="fe-1">FE 2</option>
+                <option value="fe-1">FE 3</option>
+                <option value="fe-1">FE 4</option>
+                <option value="fe-1">FE 5</option>
+                <option value="fe-1">FE 6</option>
+                <option value="fe-1">FE 7</option>
+                <option value="fe-1">FE 8</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-input">
+            <label>
+                <b>Kepuasan Anda Mengikuti Kelas Webinar:</b> 
+            </label>
             <br>
+            <!-- Input Type Radio Button -->
+            <label for="score-1">
+                <input type="radio" id="score-1" name="score">Sangat Puas</input>
+            </label>
             <br>
-            <label for="password">Password :</label>
-            <input type="password" name="fpass" id="pass">
-        </form>
-    </div>
-    <br>
-
-    <!--radio button-->
-    <div>
-        <form>
-            <input type="radio" id="html" name="fav_language" value="HTML" />
-            <label for="html">HTML</label><br />
-            <input type="radio" id="css" name="fav_language" value="CSS" />
-            <label for="css">CSS</label><br />
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
-            <label for="javascript">JavaScript</label>
-        </form>
-    </div>
-    <br>
-
-    <!--checkbox-->
-    <div>
-        <form>
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-            <label for="vehicle1"> I have a bike</label><br />
-            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-            <label for="vehicle2"> I have a car</label><br />
-            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
-            <label for="vehicle3"> I have a boat</label>
-        </form>
-    </div>
-    <br>
-
-    <!--button-->
-    <button name="button">Press me</button>
-    <br>
-    <button name="favorite">
-        <svg aria-hidden="true" viewBox="0 0 10 10">
-          <path d="M7 9L5 8 3 9V6L1 4h3l1-3 1 3h3L7 6z" />
-        </svg>
-        Add to favorites
-      </button>
-    <br>
-
-    <!--heading level-->
-    <div>
-        <h1>Heading level 1</h1>
-        <h2>Heading level 2</h2>
-        <h3>Heading level 3</h3>
-        <h4>Heading level 4</h4>
-        <h5>Heading level 5</h5>
-        <h6>Heading level 6</h6>
-    </div>
-    <br>
-
-    <!--link-->
-    <div>
-        <p>You can reach Michael at:</p>
-
-        <ul>
-            <li><a href="https://example.com">Website</a></li>
-            <li><a href="mailto:m.bluth@example.com">Email</a></li>
-            <li><a href="tel:+123456789">Phone</a></li>
-        </ul>
-    </div>
-    <br>
-
-    <!--paragraf-->
-    <div>
-        <p>
-            Geckos are a group of usually small, usually nocturnal lizards. They are found on every continent except Australia.
-        </p>
-        <p>
-            Some species live in houses where they hunt insects attracted by artificial light.
-        </p>
-    </div>
-    <br>
-
-    <!--logo-->
-    <div>
-        <img src="./assets/head3.png" alt="RG logo" />
-    </div>
-    <br>
-
-    <!--section-->
-    <div>
-        <section>
-            <h2>Heading</h2>
-            <p>Bunch of awesome content</p>
-        </section>
-    </div>
-    <br>
-
-    <!--article-->
-    <div>
-        <article class="film_review">
-            <h2>Jurassic Park</h2>
-            <section class="main_review">
-                <h3>Review</h3>
-                <p>Dinos were great!</p>
-            </section>
-            <section class="user_reviews">
-                <h3>User reviews</h3>
-                <article class="user_review">
-                    <h4>Too scary!</h4>
-                    <p>Way too scary for me.</p>
-                    <footer>
-                        <p>
-                            Posted on <time datetime="2015-05-16 19:00">May 16</time> by Lisa.
-                        </p>
-                    </footer>
-                </article>
-            </section>
-        </article>
-    </div>
-    <br>
-
-    <!--aside-->
-    <div>
-        <article>
-            <p>
-                The Disney movie <cite>The Little Mermaid</cite> was first released to theatres in 1989.
-            </p>
-            <aside>
-                <p>The movie earned $87 million during its initial release.</p>
-            </aside>
-            <p>More info about the movie...</p>
-        </article>
-    </div>
-    <br>
-
-    <!--details-->
-    <div>
-        <details>
-            <summary>System Requirements</summary>
-            <p>
-                Requires a computer running an operating system. The computer must have some memory and ideally some kind of long-term storage. An input device as well as some form of output device is recommended.
-            </p>
-        </details>
-    </div>
-    <br>
-
-    <!--dropdown-->
-    <div class="form-input">
-        <label for="kelas" id="label-kelas">
-            <b>Kelas:</b> 
-        </label>
-        <!-- Dropdown options -->
-        <select name="kelas" id="kelas">
-            <option value="fe-1">FE 1</option>
-            <option value="fe-1">FE 2</option>
-            <option value="fe-1">FE 3</option>
-            <option value="fe-1">FE 4</option>
-            <option value="fe-1">FE 5</option>
-            <option value="fe-1">FE 6</option>
-            <option value="fe-1">FE 7</option>
-            <option value="fe-1">FE 8</option>
-        </select>
-    </div>
-
-    <!--figure-->
-    <div>
-        <!-- Just an image -->
-        <figure>
-            <img src="./assets/head3.png" alt="The beautiful MDN logo." />
-        </figure>
-
-        <!-- Image with a caption -->
-        <figure>
-            <img src="./assets/head3.png" alt="RG Logo" />
-            <figcaption>RG Logo</figcaption>
-        </figure>
-    </div>
-    <br>
-
-    <!--page header-->
-    <div>
-        <header>
-            <h1>Main Page Title</h1>
-            <img src="./assets/head3.png" alt="MDN logo" />
-        </header>
-    </div>
-    <br>
-
-    <!--article header-->
-    <div>
-        <article>
-            <header>
-                <h2>The Planet Earth</h2>
-                <p>
-                    Posted on Wednesday, <time datetime="2017-10-04">4 October 2017</time> by Jane Smith
-                </p>
-            </header>
-            <p>
-                We live on a planet that's blue and green, with so many things still unseen.
-            </p>
-            <p>
-                <a href="https://example.com/the-planet-earth/">Continue reading....</a>
-            </p>
-        </article>
-    </div>
-    <br>
-
-    <!--footer-->
-    <div>
-        <footer>
-            Some copyright info or perhaps some author info for an &lt;article&gt;?
-        </footer>
-    </div>
-    <br>
-
-    <!--main-->
-    <div>
-        <!-- other content -->
-        <main>
-            <h1>Apples</h1>
-            <p>The apple is the pomaceous fruit of the apple tree.</p>
-            <article>
-                <h2>Red Delicious</h2>
-                <p>
-                    These bright red apples are the most common found in many supermarkets.
-                </p>
-            </article>
-        </main>
-        <!-- other content -->
-        <main>
-            <h1>Apples</h1>
-            <p>The apple is the pomaceous fruit of the apple tree.</p>
-            <article>
-                <h2>Red Delicious</h2>
-                <p>
-                    These bright red apples are the most common found in many supermarkets.
-                </p>
-            </article>
-        </main>
-    </div>
-    <br>
-
-    <!--mark-->
-    <dir>
-        <blockquote>
-            It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, <mark>Rebel spies managed to steal secret plans</mark> to the Empire’s ultimate weapon,
-            the DEATH STAR, an armored space station with enough power to destroy an entire planet.
-        </blockquote>
-    </dir>
-    <br>
-
-    <!--navigation-->
-    <div>
-        <nav class="crumbs">
-            <ol>
-                <li class="crumb"><a href="#">BMX</a></li>
-                <li class="crumb">Jump Bike 3000</li>
-            </ol>
-        </nav>
-        <h1>Jump Bike 3000</h1>
-        <p>
-            This BMX bike is a solid step into the pro world. It looks as legit as it rides and is built to polish your skills.
-        </p>
-    </div>
-    <br>
-
-    <!--time-->
-    <div>
-        <p>The concert starts at <time datetime="2018-07-07T20:00:00">20:00</time>.</p>
-    </div>
-
+            <label for="score-2">
+                <input type="radio" id="score-2" name="score">Puas</input>
+            </label>
+            <br>
+            <label for="score-3">
+                <input type="radio" id="score-3" name="score">Cukup Puas</input>
+            </label>
+            <br>
+            <label for="score-4">
+                <input type="radio" id="score-4" name="score">Kurang Puas</input>
+            </label>
+        </div>
+        <br>
+        <div class="form-input">
+            <label>
+                <b>Dari beberapa pembelajaran, tema apa yang anda paling minati?</b> 
+                <br>
+                <small>(Bisa pilih lebih dari 1)</small>
+            </label>
+            <br>
+            <!-- Input Type Checkbox -->
+            <label for="framework-1">
+                <input type="checkbox" name="framework">Webinar Software Engineering</input></label>
+            <br>
+            <label for="framework-2">
+                <input type="checkbox" name="framework">Workshop Software Engineering</input></label>
+            <br>
+            <label for="framework-3">
+                <input type="checkbox" name="framework">Webinar Manajemen Project</input></label>
+            <br>
+            <label for="framework-4">
+                <input type="checkbox" name="framework">Webinar Soft Skill & Presentation</input></label>
+        </div>
+        <br>
+        <div class="form-input">
+            <label for="comment">
+                <b>Komentar Tambahan:</b>
+                <br>
+                <small>(Bisa terkait LMS)</small>
+            </label>
+            <br>
+            <!-- Text Area -->
+            <textarea name="comment" id="comment" placeholder="Enter your comment here">
+            </textarea>
+        </div>
+        <br>
+        <!-- Button -->
+        <button type="submit" value="submit">
+            Kirim
+        </button>
+    </form>
 </body>
 
 </html>
