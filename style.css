@@ -1,0 +1,101 @@
+    /* Styling body */
+    
+    body {
+        background-color: #051367;
+        font-family: 'Fredoka', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    
+    h1 {
+        color #DFF6FF;
+    }
+    /* Styling form */
+    
+    form {
+        background-color: #fff;
+        color: #000;
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 30px 20px;
+    }
+    /* Styling form-input class */
+    
+    .form-input {
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    /* Styling form-input label */
+    
+    .form-input label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    /* Styling form-input input, dropdown, textarea */
+    
+    .form-input input,
+    .form-input select,
+    .form-input textarea {
+        border: 1px solid #777;
+        border-radius: 2px;
+        font-family: 'Fredoka', sans-serif;
+        padding: 10px;
+        display: block;
+        width: 95%;
+    }
+    /* Styling form-input, radio button, checkbox */
+    
+    .form-input input[type="radio"],
+    .form-input input[type="checkbox"] {
+        display: inline-block;
+        width: auto;
+    }
+    /* Styling button */
+    
+    a.button {
+        background-color: #2D31FA;
+        border: none;
+        border-radius: 10px;
+        font-family: 'Fredoka', sans-serif;
+        color: #fff;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        margin-top: 20px;
+        padding: 15px 20px 15px 20px;
+        font-size: 16px;
+        width: 85%;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    a.button:hover {
+        background-color: white;
+        color: #2D31FA;
+    }
+    
+    a.button-back {
+        background-color: #2D31FA;
+        border: none;
+        border-radius: 10px;
+        font-family: 'Fredoka', sans-serif;
+        color: #fff;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        margin-top: 20px;
+        padding: 15px 20px 15px 20px;
+        font-size: 16px;
+        width: 85%;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    a.button-back:hover {
+        background-color: white;
+        color: #2D31FA;
+    }
