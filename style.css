@@ -1,101 +1,94 @@
-    /* Styling body */
-    
-    body {
-        background-color: #051367;
-        font-family: 'Fredoka', sans-serif;
-        color: #fff;
-        text-align: center;
-    }
-    
-    h1 {
-        color: #DFF6FF;
-    }
-    /* Styling form */
-    
-    form {
-        background-color: #fff;
-        color: #000;
-        max-width: 500px;
-        margin: 30px auto;
-        padding: 15px 20px;
-    }
-    /* Styling form-input class */
-    
-    .form-input {
-        text-align: left;
-        margin-bottom: 10px;
-    }
-    /* Styling form-input label */
-    
-    .form-input label {
-        display: block;
-        margin-bottom: 0px;
-    }
-    /* Styling form-input input, dropdown, textarea */
-    
-    .form-input input,
-    .form-input select,
-    .form-input textarea {
-        border: 1px solid #777;
-        border-radius: 2px;
-        font-family: 'Fredoka', sans-serif;
-        padding: 10px;
-        display: block;
-        width: 95%;
-    }
-    /* Styling form-input, radio button, checkbox */
-    
-    .form-input input[type="radio"],
-    .form-input input[type="checkbox"] {
-        display: inline-block;
-        width: auto;
-    }
-    /* Styling button */
-    
-    a.button {
-        background-color: #2D31FA;
-        border: none;
-        border-radius: 10px;
-        font-family: 'Fredoka', sans-serif;
-        color: #fff;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-        margin-top: 20px;
-        padding: 15px 20px 15px 20px;
-        font-size: 16px;
-        width: 85%;
-        cursor: pointer;
-        font-weight: bold;
-    }
-    
-    a.button:hover {
-        background-color: white;
-        color: #2D31FA;
-    }
-    
-    a.button-back {
-        background-color: #2D31FA;
-        border: none;
-        border-radius: 10px;
-        font-family: 'Fredoka', sans-serif;
-        color: #fff;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-        margin-top: 20px;
-        padding: 15px 20px 15px 20px;
-        font-size: 16px;
-        width: 85%;
-        cursor: pointer;
-        font-weight: bold;
-    }
-    
-    a.button-back:hover {
-        background-color: white;
-        color: #2D31FA;
-    }
+/* Styling body */
+
+body {
+    background-image: url("./assets/bg2.jpg");
+    /* sumber: https://wallpapercave.com/w/wp2610910 */
+    font-family: 'Fredoka', sans-serif;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+}
+
+
+/* Styling form */
+
+form {
+    background-color: #fff;
+    background-image: url("./assets/bg2.jpg");
+    background-size: cover;
+    color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgba(25, 25, 25, 0.5);
+}
+
+
+/* Styling form-input class */
+
+.form-input {
+    margin: 20px 40px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+
+/* Styling form-input label */
+
+.form-input label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+/* Styling form-input input, dropdown, textarea */
+
+.form-input input,
+.form-input select,
+.form-input textarea {
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: 2px 5px 10px rgba(0, 109, 211, 0.09);
+    border-radius: 5px;
+    font-family: 'Fredoka', sans-serif;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+
+/* Styling form-input, radio button, checkbox */
+
+.form-input input[type="radio"],
+.form-input input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+
+/* Styling button */
+
+a:link,
+a:visited {
+    background-color: #890F0D;
+    box-shadow: 2px 5px 10px rgba(0, 109, 211, 0.09);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Fredoka', sans-serif;
+    color: #fff;
+    padding: 15px 25px;
+    margin: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    width: auto;
+    cursor: pointer;
+}
+
+a:hover,
+a:active {
+    background-color: #ff5751;
+    color: #fff;
+}
